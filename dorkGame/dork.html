@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dork.css">
+</head>
+
+<body>
+    <div class="container" id ="container">
+
+        <section class="game">
+            <div class="game-text">
+                <p class="typewriter" id="tw">Welcome, player. Type Start or help, if you need it.</p>
+            </div>
+            
+            <input id="user_input" type = 'text' autofocus></input>
+            <button class="submitBtn" id="submitBtn">Submit</button>
+        </section>
+        <div class="help" id="help">
+            <h2 class="helpListTitle">Commands</h2>
+            <table class="helpList" id="helpList">           
+                <tr class="helpListItem">
+                    <td>Start: </td>
+                    <td>Begins the game</td>
+                </tr>    
+                <tr class="helpListItem">
+                    <td>Help: </td>
+                    <td>Shows/hides commands</td>
+                </tr>  
+            </table>
+        </div>
+    </div>
+
+
+
+    <script src="js/main.js"></script>
+    <script src="js/cmds.js"></script>
+    <script src="js/display.js"></script>
+    <script src="js/items.js"></script>
+
+
+</body>
+
+</html>
